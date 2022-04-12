@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Just Test'){
             steps{
-                bat 'Apenas um teste'
+                bat 'echo Apenas um teste'
             }
         }
     }
